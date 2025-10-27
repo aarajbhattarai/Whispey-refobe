@@ -111,7 +111,7 @@ User`)
                   onClose()
                 }}
               >
-                <Github className="w-3.5 h-3.5 mr-2" />
+
                 <span className="flex-1 text-left">GitHub</span>
                 <ExternalLink className="w-3 h-3" />
               </Button>

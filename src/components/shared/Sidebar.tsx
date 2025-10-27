@@ -502,12 +502,7 @@ export default function Sidebar({
           ))}
         </nav>
 
-        {/* GitHub Stars */}
-        {(!isCollapsed || isMobile) && (
-          <div className="px-3 mb-3">
-            <GitHubStarsButton />
-          </div>
-        )}
+     
 
         {/* Conditional Pricing Box */}
         {pricingConfig?.showPricingBox && (!isCollapsed || isMobile) && (
